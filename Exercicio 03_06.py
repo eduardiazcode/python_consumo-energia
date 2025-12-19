@@ -7,7 +7,7 @@ Data	: 1º semestre de 2020
 ===========================================
 Atividade	: Exercício 05
 Autor	: João Marcelo Gerenutti
-Data	: 03/06/2020
+Data	: 03/06/2025
 Comentários	: "Deseja-se fazer uma pesquisa a respeito do consumo mensal de energia elétrica em uma determinada cidade.
  Para isso são obtidos os seguintes dados de vários consumidores numa entrevista:
 quantidade de kWh consumidos durante o mês;
@@ -86,8 +86,8 @@ while kwh != 5312 and tipo_consumidor != 5312:
             maior_industrial = kwh
 
     else:
-        # SALIDA DE DADOS
-        print("Tipo do consumidor inválido! Listas dos já inseridos: ")
+        # SALIDA DE DATOS
+        print("Tipo de consumidor inválido! Listas dos já inseridos: ")
 
     # PROCESAMIENTO DE DADOS
     total_geral = total_geral + kwh

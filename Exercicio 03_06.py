@@ -50,14 +50,14 @@ total_geral = 0
 while kwh != 5312 and tipo_consumidor != 5312:
 
     # SAIDA DE DADOS
-    print("Para finalizar o programa: digitar quantidade = 5312 e codigo = 5312.")
+    print("Para finalizar el programa: digitar quantidade = 5312 e codigo = 5312.")
     print("---------------------------------------------------------------------")
 
     # ENTRADA DE DADOS
     kwh = int(input("Digite a quantidade de kWh consumidos durante o mês: "))
     tipo_consumidor = (input("Digite o código do tipo de consumidor: (R)residencial, (C)comercial, (I)industrial: "))
 
-    # PROCESSAMENTO DE DADOS
+    # PROCESAMIENTO DE DADOS
     if tipo_consumidor == "R" and kwh != 0:
         contador_residencia = contador_residencia + 1
 
@@ -86,13 +86,13 @@ while kwh != 5312 and tipo_consumidor != 5312:
             maior_industrial = kwh
 
     else:
-        # SAIDA DE DADOS
+        # SALIDA DE DADOS
         print("Tipo do consumidor inválido! Listas dos já inseridos: ")
 
-    # PROCESSAMENTO DE DADOS
+    # PROCESAMIENTO DE DADOS
     total_geral = total_geral + kwh
 
-    # SAIDA DE DADOS
+    # SALIDA DE DADOS
     print("---------------------------------------------------------------------")
     print("O maior consumo residencial: ", maior_residencial)
 
@@ -104,7 +104,7 @@ while kwh != 5312 and tipo_consumidor != 5312:
         # SAIDA DE DADOS
         print("O menor consumo residencial: 0 ")
 
-    # SAIDA DE DADOS
+    # SALIDA DE DADOS
     print("---------------------------------------------")
     print("O maior consumo comercial: ", maior_comercial)
     print("---------------------------------------------")
@@ -115,7 +115,7 @@ while kwh != 5312 and tipo_consumidor != 5312:
     print("O total de consumo industrial: ", total_industrial)
     print("---------------------------------------------------------------------")
 
-# PROCESSAMENTO DE DADOS
+# PROCESAMIENTO DE DATOS
 if quantidade_industrial != 0:
     media_industrial = (total_industrial/quantidade_industrial)
 
